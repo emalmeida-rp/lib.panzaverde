@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto&family=Nosifer&family=Oi&family=Rubik+Distressed&family=Rubik+Spray+Paint&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+body {
+    background: beige;
+    font-family: "Sour Gummy", serif;
+}
+
+h1 {
+    font-size: 6rem;
+    text-align: center;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(134 163 50) !important;
+}
+
+.navbar {
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+.navbar-nav {
+    justify-content: space-around;
+    flex-direction: row;
+}
+#navbarNav {
+    justify-content: space-between;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+    background-image: url(../img/chainobj.png);
+    background-size: contain;
+}
+
+
+
+.letrero {
+    display: flex;
+    background-color: black;
+    border: 4px solid rgb(175, 16, 42);
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.texto-letrero {
+    display: inline-block;
+    font-family: "Doto", serif;
+    color: aliceblue;
+    font-size: 1.8em;
+    animation: scroll 45s linear infinite;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.texto-letrero:nth-child(1) {
+    animation-delay: 4s;
+}
+
+
+/* Contenido principal */
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../img/background\ azul.png);
+    padding: 2rem;
+}
+
+.img-fluid{
+    height: 60rem;
+}
+
+aside {
+    /* Productos temporales de oferta */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+footer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    background-color:#afcf6cf2;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer h3 {
+    margin: 3rem;
+    padding: 3rem;
+}
+
+.footer-izq {
+    display: flex;
+    padding: 1rem;
+    font-size: 1.7rem;
+}
+
+.footer-izq li {
+    list-style-type: none;
+}
+
+.footer-izq li a {
+    text-decoration: none;
+    color: #333;
+    margin: 0.5rem;
+}
+
+.footer-der {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-original {
+    width: 10rem;
+    height: 10rem;
+    padding: 0.2rem;
+    margin: 0.2rem;
+}
+
+@media screen and (max-width:570px) {
+    header {
+        background-image: url(../img/chainobj.png);
+        background-size: contain;
+        /* position: sticky; */
+    }
+
+    .img-fluid{
+        height: 30rem;
+    }
+
+    .logo-original {
+        width: 10rem;
+        height: 10rem;
+        padding: 0.2rem;
+        margin: 0.2rem;
+    }
+
+    .bg-body-tertiary {
+        --bs-bg-opacity: 1;
+        background-color: rgb(134 163 50) !important;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-der {
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+}
