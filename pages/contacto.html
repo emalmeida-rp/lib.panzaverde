@@ -51,11 +51,30 @@
         </span>
     </div>
     <main> <!-- Inicio estructura contenido relevante-->
-        <h2>Formulario de contacto</h2>
-        <p>Motivo: Quiero postear mi arte!, Consulta de puesto de trabajo, Quiero hacer un pedido particular, Otro</p>
-        <p>Ingresá tu número de teléfono asi te contactamos:</p>
-        <p>Detalle el motivo del contacto:</p>
-        <img src="../img/formcontacto.webp" alt="Formulario">
+        <div class="form">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <div class="row g-3">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </div>
     </main> <!-- fin estructura contenido relevante-->
 
     <footer>

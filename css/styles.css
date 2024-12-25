@@ -30,10 +30,12 @@ h1 {
     width: 100%;
     top: 0;
 }
+
 .navbar-nav {
     justify-content: space-around;
     flex-direction: row;
 }
+
 #navbarNav {
     justify-content: space-between;
 }
@@ -105,8 +107,8 @@ main {
     padding: 2rem;
 }
 
-.img-fluid{
-    height: 60rem;
+.img-fluid {
+    height: 45rem;
 }
 
 aside {
@@ -127,7 +129,7 @@ footer {
     width: 100%;
     height: auto;
     background-size: contain;
-    background-color:#afcf6cf2;
+    background-color: #afcf6cf2;
     justify-content: space-between;
     align-items: center;
 }
@@ -159,7 +161,7 @@ footer {
 }
 
 .logo-original {
-    width: 10rem;
+    width: 15rem;
     height: 10rem;
     padding: 0.2rem;
     margin: 0.2rem;
@@ -172,7 +174,7 @@ footer {
         /* position: sticky; */
     }
 
-    .img-fluid{
+    .img-fluid {
         height: 30rem;
     }
 
