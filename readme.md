@@ -5,9 +5,9 @@
 
 - 🌱 Estoy aprendiendo habilidades como **Dev Full stack**
 
-- 👨‍💻 All of my projects are available at [https://github.com/emalmeida-rp](https://github.com/emalmeida-rp)
+- 👨‍💻 Mi perfil en git [https://github.com/emalmeida-rp]
 
-- 💬 Ask me about **HTML5, CSS, Bootstrap**
+- 💬 Tecnologias que conozco: **HTML5, CSS, Bootstrap**
 
 - 📫 Contacto **almeidaeric@live.com**
 
