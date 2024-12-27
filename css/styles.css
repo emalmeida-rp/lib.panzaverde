@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Doto&family=Nosifer&family=Oi&family=Rubik+Distressed&family=Rubik+Spray+Paint&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 * {
     margin: 0px;
     padding: 0px;
@@ -34,12 +34,21 @@ h1 {
 .navbar-nav {
     justify-content: space-around;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 1rem;
 }
 
 #navbarNav {
     justify-content: space-between;
 }
 
+.nav-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 header {
     display: flex;
@@ -107,8 +116,39 @@ main {
     padding: 2rem;
 }
 
-.img-fluid {
-    height: 45rem;
+.galeria {
+    display: grid;
+    align-items: stretch;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.galeria-img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.galeria-img:hover {
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 1000px) {
+    .galeria {
+        grid-template-columns: repeat(2, 2fr);
+    }
+    .galeria-img:last-child {
+        grid-column: 1/ span 2;
+    }
+}
+
+@media (max-width: 576px) {
+    .galeria {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .galeria-img:last-child {
+        grid-column: inherit;
+    }
 }
 
 aside {
@@ -126,43 +166,21 @@ aside {
 
 footer {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: auto;
-    background-size: contain;
     background-color: #afcf6cf2;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
-.footer h3 {
-    margin: 3rem;
-    padding: 3rem;
-}
-
-.footer-izq {
-    display: flex;
-    padding: 1rem;
-    font-size: 1.7rem;
-}
-
-.footer-izq li {
-    list-style-type: none;
-}
-
-.footer-izq li a {
-    text-decoration: none;
-    color: #333;
-    margin: 0.5rem;
-}
-
 .footer-der {
-    display: flex;
-    flex-direction: column;
+    display: flex
 }
 
 .logo-original {
     width: 15rem;
-    height: 10rem;
+    height: 15rem;
     padding: 0.2rem;
     margin: 0.2rem;
 }
@@ -171,18 +189,6 @@ footer {
     header {
         background-image: url(../img/chainobj.png);
         background-size: contain;
-        /* position: sticky; */
-    }
-
-    .img-fluid {
-        height: 30rem;
-    }
-
-    .logo-original {
-        width: 10rem;
-        height: 10rem;
-        padding: 0.2rem;
-        margin: 0.2rem;
     }
 
     .bg-body-tertiary {
@@ -201,11 +207,4 @@ footer {
         height: auto;
     }
 
-    .footer-der {
-        flex-direction: row;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        padding: 2rem;
-    }
 }
