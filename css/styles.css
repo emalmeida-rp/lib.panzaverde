@@ -40,10 +40,21 @@ h1 {
 }
 
 .nav-item{
+    width: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0.2rem;
+}
+
+.nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 5px;
+    width: 70px;
+    border-radius: 10px;
 }
 
 header {
@@ -212,4 +223,8 @@ summary{
     max-height: auto;
     max-width: 500px;
     overflow: hidden;
+}
+
+.carousel-item-active{
+    justify-content: center;
 }
