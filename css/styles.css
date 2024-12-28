@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-p {
-    font-size: 1.5rem;
-}
-
 body {
     background: beige;
     font-family: "Sour Gummy", serif;
@@ -206,5 +202,14 @@ footer {
         width: 100%;
         height: auto;
     }
+}
+summary{
+    font-weight: bold;
+    cursor: pointer;
+}
 
+.accordion-collapse {
+    max-height: auto;
+    max-width: 500px;
+    overflow: hidden;
 }
