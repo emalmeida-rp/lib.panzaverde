@@ -70,65 +70,66 @@
     </div>
 
     <main>
-        <!-- Caja de texto -->
-        <div class="alert alert-secondary" role="alert">
-            <h3>Noticias y eventos importantes:</h3>
-        </div>
-        <!-- Carrusel de imagenes, se continua trabajando-->
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                    aria-label="Slide 4"></button>
+        <!-- Caja de texto alert -->\
+        <section class="main d-f-column">
+            <div class="alert alert-secondary" role="alert">
+                <h3 class="text-center">Noticias y eventos importantes:</h3>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./img/carousel1.jpg" class="img-fluid img-thumbnail " alt="daily1">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Primera diapositiva</h5>
-                        <p>Estamos trabajando en el contenido!.</p>
+            <!-- Carrusel de imagenes fade-->
+            <div id="carouselExampleFade" class="carousel carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/carousel1.jpg" class="img-thumbnail img-fluid" alt="daily1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Primera diapositiva</h5>
+                            <p>Estamos trabajando en el contenido!.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carousel2.jpg" class="img-fluid img-thumbnail" alt="daily2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Segunda diapositiva</h5>
+                            <p>Estamos trabajando en el contenido!.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carousel3.jpg" class="img-thumbnail img-fluid" alt="daily3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Tercera diapositiva</h5>
+                            <p>Estamos trabajando en el contenido!.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carousel4.jpg" class="img-thumbnail img-fluid" alt="daily4">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Cuarta diapositiva</h5>
+                            <p>Estamos trabajando en el contenido!.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="./img/carousel2.jpg" class="img-fluid img-thumbnail" alt="daily2">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Segunda diapositiva</h5>
-                        <p>Estamos trabajando en el contenido!.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/carousel3.jpg" class="img-fluid img-thumbnail" alt="daily3">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Tercera diapositiva</h5>
-                        <p>Estamos trabajando en el contenido!.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/carousel4.jpg" class="img-fluid img-thumbnail " alt="daily4">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Cuarta diapositiva</h5>
-                        <p>Estamos trabajando en el contenido!.</p>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-
-</main>
+        </section>
+    </main>
     <aside>
         <section class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-1 branches">
             <div class="container">
