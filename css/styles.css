@@ -250,7 +250,7 @@ aside .branches{
     margin: 1rem;
 }
 
-.card {
+.card-branches {
     max-width: 350px;
     max-height: 250px;
 }
@@ -260,10 +260,10 @@ aside .branches{
     max-height: 100px;
 }
 
-.card{
+.card-branches{
     transition: transform 0.3s ease-in-out;
 }
 
-.card:hover {
+.card-branches:hover {
     transform: scale(1.1);
 }
