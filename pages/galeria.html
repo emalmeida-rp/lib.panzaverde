@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +10,7 @@
 </head>
 
 <body>
+    <!--Barra de navegación -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary" style="z-index:10;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Menú</a>
@@ -21,19 +21,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html"><i class="bi bi-house-door"></i>Home</a>
+                        <a class="nav-link icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="../index.html"><i class="bi bi-house-door"></i>Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./galeria.html"><i class="bi bi-images"></i>Galería</a>
+                        <a class="nav-link active icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" aria-current="page" href="./galeria.html"><i class="bi bi-images"></i>Galería</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./historia.html"><i class="bi bi-journal-text"></i>Historia</a>
+                        <a class="nav-link icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="./historia.html"><i class="bi bi-journal-text"></i>Historia</a>
                     </li>
                     <li class="nav-item"></i>
-                        <a class="nav-link" href="./contacto.html"><i class="bi bi-person-lines-fill"></i>Contacto</a>
+                        <a class="nav-link icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="./contacto.html"><i class="bi bi-person-lines-fill"></i>Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./carrito.html"><i class="bi bi-shop"></i>Carrito</a>
+                        <a class="nav-link icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="./carrito.html"><i class="bi bi-shop"></i>Carrito</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -43,20 +43,21 @@
             </div>
         </div>
     </nav>
-    <header> <!-- Inicio estructura encabezado -->
+    <header>
         <h1>¡Librería Panza Verde!</h1>
         <h3>Galería</h3>
-    </header> <!-- Fin estructura encabezado -->
+    </header> 
     <div class="letrero">
         <span class="texto-letrero">
-            <h3><strong>**-Aquí podrás observar nuestra pequeño apartado dedicado al arte de nuestros clientes, creado
+            <p>**-Aquí podrás observar nuestra pequeño apartado dedicado al arte de nuestros clientes, creado
                     con los materiales que ofrecemos. Si queres integrar tu proyecto a nuestras filas, adjunta tu
-                    solicitud por aquí!-**</strong></h3>
+                    solicitud por aquí!-**</p>
         </span>
     </div>
 
-    <main> <!-- Inicio estructura contenido relevante-->
-        <div class="galeria">
+    <main> 
+        <!-- Galeria grid-->
+        <div class="galeria"> 
             <img src="../img/galeria-arte1.jpg" alt="Espacio" class="img-fluid galeria-img">
             <img src="../img/galeria-arte2.webp" alt="Vacio" class="img-fluid galeria-img">
             <img src="../img/galeria-arte3.webp" alt="Rustico" class="img-fluid galeria-img">
@@ -67,7 +68,7 @@
             <img src="../img/galeria-arte8.jpeg" alt="Alce en oleo" class="img-fluid galeria-img">
             <img src="../img/galeria-arte9.jpeg" alt="Makeup rainbow" class="img-fluid galeria-img">
         </div>
-    </main> <!-- fin estructura contenido relevante-->
+    </main> 
 
     <footer>
         <section class="footer-izq">

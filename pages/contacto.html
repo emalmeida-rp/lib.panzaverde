@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!-- Barra de navegación -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary" style="z-index:10;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Menú</a>
@@ -21,19 +22,20 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html"><i class="bi bi-house-door"></i>Home</a>
+                        <a class="nav-link icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="../index.html"><i class="bi bi-house-door"></i>Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./galeria.html"><i class="bi bi-images"></i>Galería</a>
+                        <a class="nav-link icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="./galeria.html"><i class="bi bi-images"></i>Galería</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./historia.html"><i class="bi bi-journal-text"></i>Historia</a>
+                        <a class="nav-link icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="./historia.html"><i class="bi bi-journal-text"></i>Historia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./contacto.html"><i class="bi bi-person-lines-fill"></i>Contacto</a>
+                        <a class="nav-link active icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" aria-current="page" href="./contacto.html"><i
+                                class="bi bi-person-lines-fill"></i>Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./carrito.html"><i class="bi bi-shop"></i>Carrito</a>
+                        <a class="nav-link icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="./carrito.html"><i class="bi bi-shop"></i>Carrito</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -49,13 +51,13 @@
     </header>
     <div class="letrero">
         <span class="texto-letrero">
-            <h3><strong>**-¿Querés trabajar con nosotros? ¿O tal vez tengas alguna sugerencia o encargos que realizar?
+            <p>**-¿Querés trabajar con nosotros? ¿O tal vez tengas alguna sugerencia o encargos que realizar?
                     ¡¡Ayudanos completando el formulario según lo que amerite, para analizar tu caso y comunicarnos con
-                    vos lo antes posible!!-**</strong></h3>
-        </span>
-    </div>
-    <main> <!-- Inicio estructura contenido relevante-->
-
+                    vos lo antes posible!!-**</p>
+                </span>
+            </div>
+    <main>
+        <!-- FAQ con desplegable -->
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header">
@@ -67,17 +69,48 @@
                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <ul class="list-group">
-                            <li class="list-group-item list-group-item-action"><details><summary>¿Puedo realizar consultas a través de Whatsapp?</summary><p>¡Por supuesto! Ni bien nos desocupemos te respondemos, mientras tanto asegurate de dejarnos escrito la mayor información posible.</p></li></details>
-                            <li class="list-group-item list-group-item-action"><details><summary>¿Cómo hago para realizar un pedido?</summary><p>Se puede realizar desde la Store, o bien consultando por el número de Whatsapp.</p></li></details>
-                            <li class="list-group-item list-group-item-action"><details><summary>¿Hay algún límite para comprar por la web?</summary><p>Según las normativas vigentes y regulatorias, solo podemos facturar por transacción hasta $250.000 por persona.</p></li></details>
-                            <li class="list-group-item list-group-item-action"><details><summary>¿Que hago si mi producto no funciona?</summary><p>Tenés hasta 72 horas de prueba a partir de que recibiste el producto e informar alguna falla de fábrica, contactate con nosotros para que te informemos los pasos a seguir.</p></li></details>
-                            <li class="list-group-item list-group-item-action"><details><summary>¿Cuales medios de pago son aceptados para realizar la compra?</summary><p>Aceptamos los siguientes métodos de pago autorizados: Tarjeta de débito  y crédito: VISA-CABAL-MASTERCARD-AMEX, Transferencias Bancarias/MP, MODO-QR, Efectivo(Contra-reembolso)</p></li></details>
+                            <li class="list-group-item list-group-item-action">
+                                <details>
+                                    <summary>¿Puedo realizar consultas a través de Whatsapp?</summary>
+                                    <p>¡Por supuesto! Ni bien nos desocupemos te respondemos, mientras tanto asegurate
+                                        de dejarnos escrito la mayor información posible.</p>
+                            </li>
+                            </details>
+                            <li class="list-group-item list-group-item-action">
+                                <details>
+                                    <summary>¿Cómo hago para realizar un pedido?</summary>
+                                    <p>Se puede realizar desde la Store, o bien consultando por el número de Whatsapp.
+                                    </p>
+                            </li>
+                            </details>
+                            <li class="list-group-item list-group-item-action">
+                                <details>
+                                    <summary>¿Hay algún límite para comprar por la web?</summary>
+                                    <p>Según las normativas vigentes y regulatorias, solo podemos facturar por
+                                        transacción hasta $250.000 por persona.</p>
+                            </li>
+                            </details>
+                            <li class="list-group-item list-group-item-action">
+                                <details>
+                                    <summary>¿Que hago si mi producto no funciona?</summary>
+                                    <p>Tenés hasta 72 horas de prueba a partir de que recibiste el producto e informar
+                                        alguna falla de fábrica, contactate con nosotros para que te informemos los
+                                        pasos a seguir.</p>
+                            </li>
+                            </details>
+                            <li class="list-group-item list-group-item-action">
+                                <details>
+                                    <summary>¿Cuales medios de pago son aceptados para realizar la compra?</summary>
+                                    <p>Aceptamos los siguientes métodos de pago autorizados: Tarjeta de débito y
+                                        crédito: VISA-CABAL-MASTERCARD-AMEX, Transferencias Bancarias/MP, MODO-QR,
+                                        Efectivo(Contra-reembolso)</p>
+                            </li>
+                            </details>
                         </ul>
                     </div>
                 </div>
             </div>
-
-
+            <!-- Formulario de contacto -->
             <form class="was-validated shadow p-3 mb-5 bg-light rounded">
                 <div class="mb-3">
                     <select class="form-select" required aria-label="select example">
@@ -101,37 +134,32 @@
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="pepe@gmail.com"
                         required>
                 </div>
-                <form class="was-validated">
+                <div class="mb-3">
+                    <label for="validationTextarea" class="form-label">Detalle</label>
+                    <textarea class="form-control" id="validationTextarea"
+                        placeholder="Detallá el motivo de tu contacto..." required></textarea>
+                    <div class="invalid-feedback">
+                        Campo requerido.
+                    </div>
                     <div class="mb-3">
-                        <label for="validationTextarea" class="form-label">Detalle</label>
-                        <textarea class="form-control" id="validationTextarea"
-                            placeholder="Detallá el motivo de tu contacto..." required></textarea>
-                        <div class="invalid-feedback">
-                            Campo requerido.
-                        </div>
-                        <div class="mb-3">
-                            <input type="file" class="form-control" aria-label="file example" required>
-                            <div class="invalid-feedback">Límite de peso del archivo: 25mb</div>
-                        </div>
+                        <input type="file" class="form-control" aria-label="file example" required>
+                        <div class="invalid-feedback">Límite de peso del archivo: 25mb</div>
                     </div>
-                    <div class="form-check mb-3">
-                        <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
-                        <label class="form-check-label" for="validationFormCheck1">Estoy de acuerdo con los términos y
-                            condiciones</label>
-                        <div class="invalid-feedback">Confirmación requerida</div>
-                    </div>
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-primary">
-                            Confirmar
-                        </button>
-                    </div>
+                </div>
+                <div class="form-check mb-3">
+                    <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+                    <label class="form-check-label" for="validationFormCheck1">Estoy de acuerdo con los términos y
+                        condiciones</label>
+                    <div class="invalid-feedback">Confirmación requerida</div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">
+                        Confirmar
+                    </button>
+                </div>
+            </form>
         </div>
-        </div>
-        </div>
-        </form>
-    </main> <!-- fin estructura contenido relevante-->
-
-
+    </main>
     <footer>
         <section class="footer-izq">
             <img src="../img/Logo.jpg" alt="logo-original" class="img-fluid logo-original">
@@ -149,11 +177,10 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-    crossorigin="anonymous"></script>
-</body>
-
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    </body>
 </html>
