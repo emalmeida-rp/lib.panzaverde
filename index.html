@@ -11,6 +11,10 @@
 </head>
 
 <body>
+    <header>
+        <h1>¡Librería Panza Verde!</h1>
+        <h2>Página principal</h2>
+    </header>
     <!-- Barra de navegación -->
     <nav class="navbar navbar-expand-lg bg-light-sticky-top bg-body-tertiary" style="z-index:10;">
         <div class="container-fluid">
@@ -55,17 +59,13 @@
         </div>
     </nav>
 
-    <header>
-        <h1>¡Librería Panza Verde!</h1>
-        <h3>Página principal</h3>
-    </header>
     <!-- Anuncios de texto con animación de desplazamiento -->
     <div class="letrero">
         <span class="text-fluid texto-letrero">
-            <p>**-¡Tenemos variedad de productos economicos!-** - **-Fotocopias, anillados,
-                plastificados y mucho mas! Realiza tu pedido por Whatsapp y te atenderemos a la brevedad! Nro:
-                11-5555-3333-** - **-Nos encontramos en Av de los Generales, veni a conocernos y retirar tu
-                pedido!-**</p>
+            **-¡Tenemos variedad de productos economicos!-** - **-Fotocopias, anillados,
+            plastificados y mucho mas! Realiza tu pedido por Whatsapp y te atenderemos a la brevedad! Nro:
+            11-5555-3333-** - **-Nos encontramos en Av de los Generales, veni a conocernos y retirar tu
+            pedido!-**
         </span>
     </div>
 
@@ -133,11 +133,12 @@
     <aside>
         <!-- Tarjetas de marcas -->
         <div class="alert alert-secondary" role="alert">
-            <h3 class="text-center">Marcas con las que trabajamos:</h3>
+            <p class="h1 text-center">Marcas con las que trabajamos:</p>
         </div>
-        <section class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2 g-lg-1 branches">
-            <div class="row row-cols-1 g-1">
-                <div class="card card-branches object-fit-content">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2 g-lg-1 branches">
+            <div class="container m-3">
+            <div class="row row-cols-1 g-1 justify-content-center">
+                <div class="card card-branches">
                     <img src="./img/card-logo-maped.png" class="card-img-top img-fluid img-branches" alt="Logo Maped">
                     <div class="card-body">
                         <h5 class="card-title">Maped</h5>
@@ -146,8 +147,10 @@
                     </div>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-1 g-1">
-                <div class="card card-branches object-fit-content">
+        </div>
+            <div class="container m-3">
+            <div class="row row-cols-1 row-cols-md-1 g-1 justify-content-center">
+                <div class="card card-branches">
                     <img src="https://www.faber-castell.com.ar/-/media/Faber-Castell-new/Logo-FC-SVG.ashx?sc_lang=es-AR&mh=61&la=es-AR&h=61&w=185&mw=194&hash=1FF8BEBD73CB354682069B60ADA946CE"
                         class="card-img-top img-fluid img-branches" alt="Logo faber-castell">
                     <div class="card-body">
@@ -157,60 +160,73 @@
                     </div>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-1 g-1">
-                <div class="card card-branches object-fit-content">
-                    <img src="./img/card-logo-bic.jpg" class="card-img-top img-fluid img-branches" alt="Logo BIC">
-                    <div class="card-body">
-                        <h5 class="card-title">BIC</h5>
-                        <p class="card-text">La marca de bolígrafos más reconocida del mundo.</p>
-                        <a href="#" class="btn btn-primary">Ver más</a>
+        </div>
+            <div class="container m-3">
+                <div class="row row-cols-1 row-cols-md-1 g-1 justify-content-center">
+                    <div class="card card-branches">
+                        <img src="./img/card-logo-bic.jpg" class="card-img-top img-fluid img-branches" alt="Logo BIC">
+                        <div class="card-body">
+                            <h5 class="card-title">BIC</h5>
+                            <p class="card-text">La marca de bolígrafos más reconocida del mundo.</p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            </div>
-            </div>
-            <div class="row row-cols-1 row-cols-md-1 g-1">
-                <div class="card card-branches object-fit-content">
-                    <img src="./img/card-logo-angel.jpg" class="card-img-top bg-dark img-fluid img-branches" alt="logo-astrada">
-                    <div class="card-body">
-                        <h5 class="card-title">Angel Astrada</h5>
-                        <p class="card-text">Empresa argentina líder en productos de papelería.
-                        </p>
-                        <a href="#" class="btn btn-primary">Ver más</a>
+            <div class="container m-3">
+                <div class="row row-cols-1 row-cols-md-1 g-1 justify-content-center">
+                    <div class="card card-branches">
+                        <img src="./img/card-logo-angel.jpg" class="card-img-top bg-dark img-fluid img-branches"
+                            alt="logo-astrada">
+                        <div class="card-body">
+                            <h5 class="card-title">Angel Astrada</h5>
+                            <p class="card-text">Empresa argentina líder en productos de papelería.
+                            </p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-1 g-1">
-                <div class="card card-branches object-fit-content">
-                    <img src="./img/card-logo-america.jpg" class="card-img-top img-fluid img-branches" alt="logo-america">
-                    <div class="card-body">
-                        <h5 class="card-title">AMERICA</h5>
-                        <p class="card-text">Marca reconocida de Angel Astrada. Cuadernos confiables y duraderos</p>
-                        <a href="#" class="btn btn-primary">Ver más</a>
+            <div class="container m-3">
+                <div class="row row-cols-1 row-cols-md-1 g-1 justify-content-center">
+                    <div class="card card-branches">
+                        <img src="./img/card-logo-america.jpg" class="card-img-top img-fluid img-branches"
+                            alt="logo-america">
+                        <div class="card-body">
+                            <h5 class="card-title">AMERICA</h5>
+                            <p class="card-text">Marca reconocida de Angel Astrada. Cuadernos confiables y duraderos</p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-1 g-1">
-                <div class="card card-branches object-fit-content">
-                    <img src="./img/card-logo-congreso.jpg" class="card-img-top img-fluid img-branches" alt="logo-congreso">
-                    <div class="card-body">
-                        <h5 class="card-title">CONGRESO</h5>
-                        <p class="card-text">Marca reconocida de Angel Astrada. Tu mejor opción económica</p>
-                        <a href="#" class="btn btn-primary">Ver más</a>
+            <div class="container m-3">
+                <div class="row row-cols-1 row-cols-md-1 g-1 justify-content-center">
+                    <div class="card card-branches">
+                        <img src="./img/card-logo-congreso.jpg" class="card-img-top img-fluid img-branches"
+                            alt="logo-congreso">
+                        <div class="card-body">
+                            <h5 class="card-title">CONGRESO</h5>
+                            <p class="card-text">Marca reconocida de Angel Astrada. Tu mejor opción económica</p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-1 g-1">
-                <div class="card card card-branches object-fit-content">
-                    <img src="./img/card-logo-rivadavia.jpg" class="card-img-top img-fluid img-branches" alt="logo-rivadavia">
-                    <div class="card-body">
-                        <h5 class="card-title">Rivadavia</h5>
-                        <p class="card-text">Marca reconocida de Angel Astrada. Para los exigentes</p>
-                        <a href="#" class="btn btn-primary">Ver más</a>
+            <div class="container m-3">
+                <div class="row row-cols-1 row-cols-md-1 g-1 justify-content-center">
+                    <div class="card card card-branches">
+                        <img src="./img/card-logo-rivadavia.jpg" class="card-img-top img-fluid img-branches"
+                            alt="logo-rivadavia">
+                        <div class="card-body">
+                            <h5 class="card-title">Rivadavia</h5>
+                            <p class="card-text">Marca reconocida de Angel Astrada. Para los exigentes</p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </aside>
 
     <footer>
