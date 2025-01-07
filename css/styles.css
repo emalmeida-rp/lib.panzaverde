@@ -259,15 +259,12 @@ aside .branches {
 .card-branches {
     max-width: 350px;
     max-height: 250px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .img-branches {
     max-width: 344px;
     max-height: 100px;
-}
-
-.card-branches {
-    transition: transform 0.3s ease-in-out;
 }
 
 .card-branches:hover {
