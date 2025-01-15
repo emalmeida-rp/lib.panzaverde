@@ -9,3 +9,4 @@ sass copy/
 .tmp.driveupload/
 .tmp.drivedownload/
 node_modules
+.gitignore
