@@ -4,4 +4,8 @@ indexcopy.html
 index-bk.html
 css/styles-bk.css
 css/prueba.css
+css/styles.css
 sass copy/
+.tmp.driveupload/
+.tmp.drivedownload/
+node_modules

@@ -1,0 +1,14 @@
+@import '../bases/querys.scss';
+
+.galeria {  
+    display: grid;
+    align-items: stretch;
+    justify-content: center;
+    gap: 2rem;
+    .galeria-img {
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}

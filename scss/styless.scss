@@ -1,0 +1,15 @@
+/* Configuraciones generales */
+@forward './bases/global.scss';
+
+/* Propiedades layouts */
+@forward './layouts/header.scss';
+@forward './layouts/main.scss';
+@forward './layouts/aside.scss';
+@forward './layouts/footer.scss';
+
+/* componentes */
+@forward './components/alertas.scss';
+@forward './components/grid.scss';
+@forward './components/nav.scss';
+@forward './components/tarjetas-marcas.scss' ;
+@forward './components/letrero.scss' ;

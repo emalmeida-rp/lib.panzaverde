@@ -1,0 +1,24 @@
+.branches {
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        margin: 1rem;
+}
+
+.card-branches {
+            max-width: 350px;
+            max-height: 250px;
+            transition: transform 0.3s ease-in-out;
+            &:hover{
+                transform: scale(1.1);
+            }
+}
+.img-branches {
+            max-width: 344px;
+            max-height: 100px;
+}
+
+.card-products {
+    justify-content: space-between;
+    align-items: stretch;
+}

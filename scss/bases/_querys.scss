@@ -1,0 +1,45 @@
+@mixin galeria-columnas($columnas) {
+    grid-template-columns: repeat($columnas, 1fr);
+}
+
+
+@media screen and (max-width:570px) {
+    header {
+        background-image: url(../img/chainobj.png);
+        background-size: contain;
+        h1{
+            font-size: 3rem;
+        }
+        h2{
+            font-size: 1.5rem;
+        }
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 2560px){
+    .galeria {
+        @include galeria-columnas(3);   
+}
+}
+
+@media screen and (max-width: 1024px){
+    .galeria {
+        @include galeria-columnas(2);   
+}
+}
+
+@media screen and (max-width:576px) {
+    .galeria {
+        @include galeria-columnas(1);   
+}
+    .galeria-img:last-child {
+            grid-column: inherit;
+        }
+    }
+

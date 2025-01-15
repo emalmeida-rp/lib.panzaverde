@@ -1,0 +1,40 @@
+@import '../bases/variables.scss';
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: $navcolor;
+}
+
+.navbar {
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+.navbar-nav {
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 1rem;
+}
+
+#navbarNav {
+    justify-content: space-between;
+}
+.nav-item {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.4rem;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 15px;
+    width: 70px;
+    border-radius: 10px;
+}
