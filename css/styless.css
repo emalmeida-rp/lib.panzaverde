@@ -186,6 +186,9 @@ footer .footer-der {
   .galeria {
     grid-template-columns: repeat(1, 1fr);
   }
+  .galeria-img {
+    grid-column: 1/span 2;
+  }
   .galeria-img:last-child {
     grid-column: inherit;
   }

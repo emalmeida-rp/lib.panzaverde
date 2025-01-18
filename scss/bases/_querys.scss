@@ -45,8 +45,10 @@
     .galeria {
         @include galeria-columnas(1);   
 }
-    .galeria-img:last-child {
+    .galeria-img{
+        grid-column: 1/ span 2;
+    &:last-child {
             grid-column: inherit;
         }
     }
-
+}
