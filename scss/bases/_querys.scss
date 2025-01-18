@@ -30,9 +30,16 @@
 
 @media screen and (max-width: 1024px){
     .galeria {
-        @include galeria-columnas(2);   
+        @include galeria-columnas(2);
+        .galeria-img{
+            &:last-child{
+                grid-column: 1/ span 2
+            }
+        }
+        
 }
 }
+
 
 @media screen and (max-width:576px) {
     .galeria {

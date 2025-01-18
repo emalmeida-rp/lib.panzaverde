@@ -178,6 +178,9 @@ footer .footer-der {
   .galeria {
     grid-template-columns: repeat(2, 1fr);
   }
+  .galeria .galeria-img:last-child {
+    grid-column: 1/span 2;
+  }
 }
 @media screen and (max-width: 576px) {
   .galeria {
