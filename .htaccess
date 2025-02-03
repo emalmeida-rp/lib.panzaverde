@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^libreriapanzaverde.netlify.app$
+RewriteRule ^(.*)$ https://libreriapanzaverde.netlify.app/$1 [R=301,L]

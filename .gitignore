@@ -10,3 +10,5 @@ sass copy/
 .tmp.drivedownload/
 node_modules
 .gitignore
+package-lock.json/
+package.json/
