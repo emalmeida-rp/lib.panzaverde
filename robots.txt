@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /pages/galeria/
+Disallow: /pages/historia/
+Disallow: /pages/contacto/
+Disallow: /pages/carrito/
+Allow: /https://libreriapanzaverde.netlify.app/
+Sitemap: https://libreriapanzaverde.netlify.app/sitemap.xml
