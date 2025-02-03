@@ -3,5 +3,5 @@ Disallow: /pages/galeria/
 Disallow: /pages/historia/
 Disallow: /pages/contacto/
 Disallow: /pages/carrito/
-Allow: /https://libreriapanzaverde.netlify.app/
+Allow: /https://libreria-panzaverde.netlify.app/
 Sitemap: https://libreria-panzaverde.netlify.app/sitemap.xml
