@@ -282,6 +282,14 @@ footer .footer-der {
   font-size: 1.5rem;
 }
 
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 1.1rem;
+}
+
 .letrero {
   display: flex;
   background-color: black;
