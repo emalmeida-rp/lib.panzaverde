@@ -1,14 +1,7 @@
-Preentrega1+Almeida.png
-fonts/
-indexcopy.html
-index-bk.html
-css/styles-bk.css
-css/prueba.css
-css/styles.css
-sass copy/
 .tmp.driveupload/
 .tmp.drivedownload/
 node_modules
-.gitignore
-package-lock.json/
-package.json/
+package-lock.json
+package.json
+Preentrega1+Almeida.png
+css/styles.css
