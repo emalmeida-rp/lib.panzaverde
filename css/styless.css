@@ -17,6 +17,114 @@ body {
   font-family: "Sour Gummy", serif;
 }
 
+@media screen and (max-width: 2560px) {
+  .galeria {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .historia .tarjeta-d {
+    margin: 7vh 0px;
+    margin-right: 23rem;
+    flex-direction: row;
+    padding: 1.5rem;
+  }
+  .historia .tarjeta-i {
+    margin: 7vh 0px;
+    margin-left: 23rem;
+    flex-direction: row-reverse;
+    padding: 1.5rem;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .historia .tarjeta-d {
+    margin: 7vh;
+    margin-left: auto;
+    flex-direction: row;
+    padding: 1.5rem;
+  }
+  .historia .tarjeta-i {
+    margin: 7vh;
+    margin-right: auto;
+    flex-direction: row-reverse;
+    padding: 1.5rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  header h1 {
+    font-size: 3rem !important;
+  }
+  header h2 {
+    font-size: 1.5rem !important;
+  }
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .galeria .galeria-img:last-child {
+    grid-column: 1/span 2;
+  }
+  .historia .tarjeta-d {
+    margin: 7vh 0px;
+    flex-direction: row;
+    padding: 0;
+  }
+  .historia .tarjeta-i {
+    margin: 7vh 0px;
+    flex-direction: row;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .historia .tarjeta-d {
+    margin: 7vh 0px;
+    flex-direction: column;
+    padding: 0;
+    width: 25rem;
+  }
+  .historia .tarjeta-i {
+    margin: 7vh 0px;
+    flex-direction: column;
+    padding: 0;
+    width: 25rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  header {
+    background-image: url(../img/chainobj.png);
+    background-size: contain;
+  }
+  header h1 {
+    font-size: 2.5rem;
+  }
+  header h2 {
+    font-size: 1.5rem;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .galeria {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .galeria-img {
+    grid-column: 1/span 2;
+  }
+  .galeria-img:last-child {
+    grid-column: inherit;
+  }
+  .historia .tarjeta-d {
+    margin: 7vh 0px;
+    flex-direction: column;
+    padding: 0;
+    width: 17rem;
+  }
+  .historia .tarjeta-i {
+    margin: 7vh 0px;
+    flex-direction: column;
+    padding: 0;
+    width: 17rem;
+  }
+}
 /* Propiedades layouts */
 header {
   display: flex;
@@ -106,6 +214,26 @@ summary {
   align-items: stretch;
 }
 
+.historia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.tarjeta-d {
+  margin: 7vh 0px;
+  flex-direction: column;
+  padding: 0;
+}
+
+.tarjeta-i {
+  margin: 7vh 0px;
+  flex-direction: column;
+  padding: 0;
+}
+
 aside {
   width: 100%;
   height: auto;
@@ -151,48 +279,6 @@ footer .footer-der {
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 570px) {
-  header {
-    background-image: url(../img/chainobj.png);
-    background-size: contain;
-  }
-  header h1 {
-    font-size: 3rem;
-  }
-  header h2 {
-    font-size: 1.5rem;
-  }
-  footer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-  }
-}
-@media screen and (max-width: 2560px) {
-  .galeria {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-@media screen and (max-width: 1024px) {
-  .galeria {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .galeria .galeria-img:last-child {
-    grid-column: 1/span 2;
-  }
-}
-@media screen and (max-width: 576px) {
-  .galeria {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .galeria-img {
-    grid-column: 1/span 2;
-  }
-  .galeria-img:last-child {
-    grid-column: inherit;
-  }
-}
 .galeria {
   display: grid;
   align-items: stretch;

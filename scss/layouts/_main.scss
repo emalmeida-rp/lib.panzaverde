@@ -1,3 +1,5 @@
+@use '../bases/querys.scss';
+
 main {
     display: flex;
     flex-direction: column;
@@ -32,4 +34,23 @@ summary {
     align-items: stretch;
 }
 
+.historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.tarjeta-d{
+    margin: 7vh 0px;
+    flex-direction: column;
+    padding: 0;
+}
+.tarjeta-i{
+    margin: 7vh 0px;
+    flex-direction: column;
+    padding: 0;
+}  
 
