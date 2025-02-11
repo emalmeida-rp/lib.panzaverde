@@ -2,53 +2,172 @@
     grid-template-columns: repeat($columnas, 1fr);
 }
 
+@media screen and (max-width: 2560px) {
+    .galeria {
+        @include galeria-columnas(3);
+    }
 
-@media screen and (max-width:570px) {
+    .historia {
+        .tarjeta-d {
+            margin: 7vh 0px;
+            margin-right: 23rem;
+            flex-direction: row;
+            padding: 1.5rem;
+        }
+
+        .tarjeta-i {
+            margin: 7vh 0px;
+            margin-left: 23rem;
+            flex-direction: row-reverse;
+            padding: 1.5rem;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    .historia {
+        .tarjeta-d {
+            margin: 7vh;
+            margin-left: auto;
+            flex-direction: row;
+            padding: 1.5rem;
+        }
+
+        .tarjeta-i {
+            margin: 7vh;
+            margin-right: auto;
+            flex-direction: row-reverse;
+            padding: 1.5rem;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    header {
+        h1 {
+            font-size: 3rem !important;
+        }
+        h2 {
+            font-size: 1.5rem !important;
+        }
+    }
+    
+    .galeria {
+        @include galeria-columnas(2);
+
+        .galeria-img {
+            &:last-child {
+                grid-column: 1/ span 2
+            }
+        }
+    }
+
+    .historia {
+        .tarjeta-d {
+            margin: 7vh 0px;
+            flex-direction: row;
+            padding: 0;
+            // width: 35rem;
+        }
+
+        .tarjeta-i {
+            margin: 7vh 0px;
+            flex-direction: row;
+            padding: 0;
+            // width: 35rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .historia {
+        .tarjeta-d {
+            margin: 7vh 0px;
+            flex-direction: column;
+            padding: 0;
+            width: 25rem;
+        }
+
+        .tarjeta-i {
+            margin: 7vh 0px;
+            flex-direction: column;
+            padding: 0;
+            width: 25rem;
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
     header {
         background-image: url(../img/chainobj.png);
         background-size: contain;
-        h1{
-            font-size: 3rem;
+
+        h1 {
+            font-size: 2.5rem;
         }
-        h2{
+
+        h2 {
             font-size: 1.5rem;
         }
     }
+
     footer {
         display: flex;
         flex-direction: column;
         width: 100%;
         height: auto;
     }
-}
-
-@media screen and (max-width: 2560px){
     .galeria {
-        @include galeria-columnas(3);   
-}
-}
+        @include galeria-columnas(1);
+    }
 
-@media screen and (max-width: 1024px){
-    .galeria {
-        @include galeria-columnas(2);
-        .galeria-img{
-            &:last-child{
-                grid-column: 1/ span 2
-            }
-        }
-        
-}
-}
-
-
-@media screen and (max-width:576px) {
-    .galeria {
-        @include galeria-columnas(1);   
-}
-    .galeria-img{
+    .galeria-img {
         grid-column: 1/ span 2;
-    &:last-child {
+
+        &:last-child {
             grid-column: inherit;
         }
     }
+
+    .historia {
+        .tarjeta-d {
+            margin: 7vh 0px;
+            flex-direction: column;
+            padding: 0;
+            width: 17rem;
+        }
+
+        .tarjeta-i {
+            margin: 7vh 0px;
+            flex-direction: column;
+            padding: 0;
+            width: 17rem;
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+// @media screen and (max-width:576px) {
+//     .galeria {
+//         @include galeria-columnas(1);
+//     }
+
+//     .galeria-img {
+//         grid-column: 1/ span 2;
+
+//         &:last-child {
+//             grid-column: inherit;
+//         }
+//     }
+// }
