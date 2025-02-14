@@ -27,6 +27,10 @@ summary {
 }
 .carousel-item {
     object-fit: cover;
+    img {
+        width: 50rem;
+        height: 40rem;
+    };
 }
 
 .tienda-body {

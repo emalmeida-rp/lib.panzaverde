@@ -143,12 +143,10 @@ header {
   background-image: url(../img/chainobj.png);
   background-size: contain;
 }
-
 header h1 {
   font-size: 5rem;
   text-align: center;
 }
-
 header h2 {
   font-size: 1.5rem;
 }
@@ -163,7 +161,6 @@ header h2 {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-
 .letrero .texto-letrero {
   display: inline-block;
   font-family: "Doto", serif;
@@ -214,9 +211,8 @@ summary {
 
 .carousel-item {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
-
 .carousel-item img {
   width: 50rem;
   height: 40rem;
@@ -268,7 +264,6 @@ footer {
   justify-content: center;
   align-items: center;
 }
-
 footer .footer-der {
   display: flex;
 }
@@ -299,11 +294,9 @@ footer .footer-der {
   justify-content: center;
   gap: 2rem;
 }
-
 .galeria .galeria-img {
   transition: transform 0.3s ease-in-out;
 }
-
 .galeria .galeria-img:hover {
   transform: scale(1.1);
 }
@@ -361,7 +354,6 @@ footer .footer-der {
   max-height: 250px;
   transition: transform 0.3s ease-in-out;
 }
-
 .card-branches:hover {
   transform: scale(1.1);
 }
@@ -409,20 +401,17 @@ footer .footer-der {
   text-align: center;
   width: 300px;
 }
-
 .tarjeta-presentacion img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   margin-bottom: 10px;
 }
-
 .tarjeta-presentacion h2 {
   margin-bottom: 5px;
 }
-
 .tarjeta-presentacion p {
   margin-bottom: 10px;
 }
@@ -437,7 +426,6 @@ footer .footer-der {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-
 .letrero .texto-letrero {
   display: inline-block;
   font-family: "Doto", serif;
@@ -458,6 +446,4 @@ footer .footer-der {
 }
 .texto-letrero:nth-child(1) {
   animation-delay: 4s;
-} 
-
-/*# sourceMappingURL=styless.css.map */
+}/*# sourceMappingURL=styless.css.map */

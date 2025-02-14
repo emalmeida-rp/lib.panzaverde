@@ -148,6 +148,13 @@
             width: 17rem;
         }
     }
+
+    .carousel-item {
+        img {
+            width: 20rem !important;
+            height: 15rem !important;
+        };
+    }
 }
 
 
