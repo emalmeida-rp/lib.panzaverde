@@ -63,13 +63,15 @@ body {
   }
   .historia .tarjeta-d {
     margin: 7vh 0px;
-    flex-direction: row;
+    flex-direction: column;
     padding: 0;
+    max-width: 30rem;
   }
   .historia .tarjeta-i {
     margin: 7vh 0px;
-    flex-direction: row;
+    flex-direction: column;
     padding: 0;
+    max-width: 30rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -232,13 +234,13 @@ summary {
 
 .tarjeta-d {
   margin: 7vh 0px;
-  flex-direction: column;
+  flex-direction: row;
   padding: 0;
 }
 
 .tarjeta-i {
   margin: 7vh 0px;
-  flex-direction: column;
+  flex-direction: row-reverse;
   padding: 0;
 }
 

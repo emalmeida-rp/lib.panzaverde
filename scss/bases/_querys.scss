@@ -68,16 +68,16 @@
     .historia {
         .tarjeta-d {
             margin: 7vh 0px;
-            flex-direction: row;
+            flex-direction: column;
             padding: 0;
-            // width: 35rem;
+            max-width: 30rem;
         }
 
         .tarjeta-i {
             margin: 7vh 0px;
-            flex-direction: row;
+            flex-direction: column;
             padding: 0;
-            // width: 35rem;
+            max-width: 30rem;
         }
     }
 }
