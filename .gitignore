@@ -1,7 +1,9 @@
 .tmp.driveupload/
 .tmp.drivedownload/
 node_modules
-package-lock.json
-package.json
 Preentrega1+Almeida.png
-css/styles.css
+css\styles.css
+robots.txt
+sitemap.xml
+old
+script.js
