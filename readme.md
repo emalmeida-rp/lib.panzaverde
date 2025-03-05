@@ -1,5 +1,4 @@
-<h1 align="center">Hola 👋, soy Eric Almeida</h1>
-<h3 align="center">Comenzando en el mundo del desarrollo, adquiriendo experiencia en el rubro.</h3>
+<h1 align="center">Hola 👋, este es un repositorio de pruebas construído para un proyecto</h1>
 
 - 🔭 I’m currently working on [libpanzaverde](https://emalmeida-rp.github.io/lipanzaverde/)
 
@@ -7,13 +6,13 @@
 
 - 👨‍💻 Mi perfil en git [https://github.com/emalmeida-rp]
 
-- 💬 Tecnologias que conozco: **HTML5, CSS, Bootstrap**
+- 💬 Tecnologias que conozco: **HTML5, CSS, SASS, Js**
 
-- 📫 Contacto **almeidaeric@live.com**
+- 📫 Contacto **libreriapanzaverde@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/almeidaeric_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="almeidaeric_" height="30" width="40" /></a>
+<a href="#" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="imagen" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
